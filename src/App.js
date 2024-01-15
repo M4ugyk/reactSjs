@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import './css/App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import React from 'react';
+import Navbar from './component/navbar';
+import Carousel  from './component/carousel';
+import Card from './component/card';
+import Welcome from './component/welcome';
+import StateProps from './stateprops';
+import Map from './mapping';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      
     </div>
   );
 }
